@@ -13,19 +13,19 @@ const Header = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3  shadow rounded bg-base-100 w-52">
                             <li className="hover-bordered"><ActiveLink to="/">Home</ActiveLink></li>
-                            <li className="hover-bordered"><Link to="/statistics">Statistics</Link></li>
-                            <li className="hover-bordered"><Link to="/applied-jobs">Applied Jobs</Link></li>
-                            <li className="hover-bordered"><Link to="/blog">Blog</Link></li>
+                            <li className="hover-bordered"><ActiveLink to="/statistics">Statistics</ActiveLink></li>
+                            <li className="hover-bordered"><ActiveLink to="/applied-jobs">Applied Jobs</ActiveLink></li>
+                            <li className="hover-bordered"><ActiveLink to="/blog">Blog</ActiveLink></li>
                         </ul>
                     </div>
                     <a className="btn text-white normal-case font-bold text-2xl border-none" style={{ background: "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)" }}>Job Hero</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/statistics">Statistics</Link></li>
-                        <li><Link to="/applied-jobs">Applied Jobs</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
+                        <li><ActiveLink to="/">Home</ActiveLink></li>
+                        <li><ActiveLink to="/statistics">Statistics</ActiveLink></li>
+                        <li><ActiveLink to="/applied-jobs">Applied Jobs</ActiveLink></li>
+                        <li><ActiveLink to="/blog">Blog</ActiveLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

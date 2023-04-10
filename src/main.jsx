@@ -7,6 +7,9 @@ import {
 import './index.css'
 import Home from './Home/Home';
 import Main from './Layout/Main';
+import Statistics from './Statistics/Statistics';
+import AppliedJobs from './AppliedJobs/AppliedJobs';
+import Blog from './Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +19,19 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
-      }
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      },
+      {
+        path: '/applied-jobs',
+        element: <AppliedJobs></AppliedJobs>
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>
+      },
     ]
   },
 ]);
