@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "https://ibb.co/vmz7Wr7",
+    "jobTitle": "Software Engineer",
+    "companyName": "Google",
+    "remoteOrOnsite": "Remote",
+    "location": "Mountain View, CA",
+    "fulltimeOrPart-time": "Full-time",
+    "salary": "100k-150k",
+    "jobDescription": "We are seeking a skilled software engineer to join our team and work on exciting new projects.",
+    "jobResponsibility": "Responsibilities include designing and implementing software solutions, testing and debugging code, and collaborating with team members.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of software development experience.",
+    "contactInformation": {
+      "phone": "555-1234",
+      "email": "jobs@google.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://ibb.co/zbqx15W",
+    "jobTitle": "Product Manager",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Gatos, CA",
+    "fulltimeOrPart-time": "Full-time",
+    "salary": "90k-120k",
+    "jobDescription": "We are looking for a product manager to help drive the development of our streaming platform.",
+    "jobResponsibility": "Responsibilities include defining product requirements, developing and implementing product roadmaps, and collaborating with cross-functional teams.",
+    "educationalRequirements": "Bachelor's or Master's degree in Business, Marketing, or related field.",
+    "experiences": "5+ years of product management experience.",
+    "contactInformation": {
+      "phone": "555-2345",
+      "email": "jobs@netflix.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://ibb.co/TYQPyXb",
+    "jobTitle": "Mechanical Engineer",
+    "companyName": "Tesla",
+    "remoteOrOnsite": "Onsite",
+    "location": "Fremont, CA",
+    "fulltimeOrPart-time": "Full-time",
+    "salary": "120k-140k",
+    "jobDescription": "We are seeking a talented mechanical engineer to join our team and help design and build cutting-edge electric vehicles.",
+    "jobResponsibility": "Responsibilities include designing and prototyping mechanical components, testing and evaluating designs, and collaborating with cross-functional teams.",
+    "educationalRequirements": "Bachelor's or Master's degree in Mechanical Engineering or related field.",
+    "experiences": "3+ years of experience in mechanical engineering or related field.",
+    "contactInformation": {
+      "phone": "555-3456",
+      "email": "jobs@tesla.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "https://ibb.co/ZGK1VWT",
+    "jobTitle": "Software Engineer",
+    "companyName": "Microsoft",
+    "remoteOrOnsite": "Remote",
+    "location": "Seattle, WA",
+    "fulltimeOrPart-time": "Full-time",
+    "salary": "100k-135k",
+    "jobDescription": "We are seeking a skilled software engineer to join our team and work on exciting new projects.",
+    "jobResponsibility": "Responsibilities include designing and implementing software solutions, testing and debugging code, and collaborating with team members.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
+    "experiences": "3+ years of software development experience.",
+    "contactInformation": {
+      "phone": "555-1234",
+      "email": "jobs@microsoft.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "https://ibb.co/0Mz2c7q",
+    "jobTitle": "Product Manager",
+    "companyName": "Uber",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrPart-time": "Full-time",
+    "salary": "60-80k",
+    "jobDescription": "We are looking for a product manager to help drive the development of our ride-sharing platform.",
+    "jobResponsibility": "Responsibilities include defining product requirements, developing and implementing product roadmaps, and collaborating with cross-functional teams.",
+    "educationalRequirements": "Bachelor's or Master's degree in Business, Marketing, or related field.",
+    "experiences": "5+ years of product management experience.",
+    "contactInformation": {
+      "phone": "555-2345",
+      "email": "jobs@uber.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "https://ibb.co/cTpd2sh",
+    "jobTitle": "Data Scientist",
+    "companyName": "Amazon",
+    "remoteOrOnsite": "Remote",
+    "location": "Seattle, WA",
+    "fulltimeOrPart-time": "Full-time",
+    "salary": "50k-75k",
+    "jobDescription": "We are seeking a talented data scientist to join our team and help drive insights and recommendations for our business.",
+    "jobResponsibility": "Responsibilities include analyzing large datasets, developing predictive models, and presenting findings to stakeholders.",
+    "educationalRequirements": "Bachelor's or Master's degree in Data Science, Computer Science, or related field.",
+    "experiences": "3+ years of experience in data science or related field.",
+    "contactInformation": {
+      "phone": "555-3456",
+      "email": "jobs@amazon.com"
+    }
+  }
+]
