@@ -10,6 +10,7 @@ import Main from './Layout/Main';
 import Statistics from './Statistics/Statistics';
 import AppliedJobs from './AppliedJobs/AppliedJobs';
 import Blog from './Blog/Blog';
+import PageNotFound from './PageNotFound/PageNotFound';
 
 const router = createBrowserRouter([
   {
@@ -31,9 +32,13 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog></Blog>
-      },
+      }
     ]
   },
+  {
+    path: '*',
+    element: <PageNotFound></PageNotFound>
+  }
 ]);
 
 
