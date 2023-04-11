@@ -5,6 +5,8 @@ import locationIcon from '../assets/location.png'
 import emailIcon from '../assets/emailIcon.png'
 import phoneIcon from '../assets/phoneIcon.png'
 import titleIcon from '../assets/titleIcon.png'
+import { Link } from 'react-router-dom';
+import { addToDb } from '../Utilities/fakeDb';
 
 const JobDetails = () => {
     const [details, setDetails] = useState({});
@@ -17,6 +19,10 @@ const JobDetails = () => {
             setDetails(detailsData);
         }
     }, []);
+
+    const handleAddJobs = () => {
+        addToDb(details.id);
+    }
 
     return (
         <div>
@@ -58,7 +64,7 @@ const JobDetails = () => {
                         </div>
                     </div>
                     <div className='mt-2 md:mt-4'>
-                        <a className="btn btn-block normal-case text-white text-lg border-none" style={{ background: "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)" }}>Apply Now</a>
+                        <Link to="/applied-jobs" onClick={handleAddJobs} className="btn btn-block normal-case text-white text-lg border-none" style={{ background: "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)" }}>Apply Now</Link>
                     </div>
                 </div>
             </div>
