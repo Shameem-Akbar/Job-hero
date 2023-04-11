@@ -28,7 +28,7 @@ const Jobs = (props) => {
                     </div>
                 </div>
                 <div className='md:pl-8 pl-4 pb-6'>
-                    <Link to="/jobDetails" className="btn text-white normal-case text-lg border-none" style={{ background: "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)" }}>View Details</Link>
+                    <Link to={`/jobDetails/${id}`} className="btn text-white normal-case text-lg border-none" style={{ background: "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)" }}>View Details</Link>
                 </div>
             </div>
         </div>

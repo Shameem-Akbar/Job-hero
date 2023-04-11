@@ -12,10 +12,8 @@
     "jobResponsibility": "Responsibilities include designing and implementing software solutions, testing and debugging code, and collaborating with team members.",
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
     "experiences": "3+ years of software development experience.",
-    "contactInformation": {
-      "phone": "555-1234",
-      "email": "jobs@google.com"
-    }
+    "phone": "555-1234",
+    "email": "jobs@google.com"
   },
   {
     "id": 2,
@@ -30,10 +28,8 @@
     "jobResponsibility": "Responsibilities include defining product requirements, developing and implementing product roadmaps, and collaborating with cross-functional teams.",
     "educationalRequirements": "Bachelor's or Master's degree in Business, Marketing, or related field.",
     "experiences": "5+ years of product management experience.",
-    "contactInformation": {
-      "phone": "555-2345",
-      "email": "jobs@netflix.com"
-    }
+    "phone": "555-2345",
+    "email": "jobs@netflix.com"
   },
   {
     "id": 3,
@@ -48,10 +44,8 @@
     "jobResponsibility": "Responsibilities include designing and prototyping mechanical components, testing and evaluating designs, and collaborating with cross-functional teams.",
     "educationalRequirements": "Bachelor's or Master's degree in Mechanical Engineering or related field.",
     "experiences": "3+ years of experience in mechanical engineering or related field.",
-    "contactInformation": {
-      "phone": "555-3456",
-      "email": "jobs@tesla.com"
-    }
+    "phone": "555-3456",
+    "email": "jobs@tesla.com"
   },
   {
     "id": 4,
@@ -60,16 +54,14 @@
     "companyName": "Microsoft",
     "remoteOrOnsite": "Remote",
     "location": "Seattle, WA",
-    "fulltimeOrPartTime": "Full Time",
+    "fulltimeOrPartTime": "Part Time",
     "salary": "100k-135k",
     "jobDescription": "We are seeking a skilled software engineer to join our team and work on exciting new projects.",
     "jobResponsibility": "Responsibilities include designing and implementing software solutions, testing and debugging code, and collaborating with team members.",
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
     "experiences": "3+ years of software development experience.",
-    "contactInformation": {
-      "phone": "555-1234",
-      "email": "jobs@microsoft.com"
-    }
+    "phone": "555-1234",
+    "email": "jobs@microsoft.com"
   },
   {
     "id": 5,
@@ -78,16 +70,14 @@
     "companyName": "Uber",
     "remoteOrOnsite": "Onsite",
     "location": "San Francisco, CA",
-    "fulltimeOrPartTime": "Part Time",
+    "fulltimeOrPartTime": "Full Time",
     "salary": "60-80k",
     "jobDescription": "We are looking for a product manager to help drive the development of our ride-sharing platform.",
     "jobResponsibility": "Responsibilities include defining product requirements, developing and implementing product roadmaps, and collaborating with cross-functional teams.",
     "educationalRequirements": "Bachelor's or Master's degree in Business, Marketing, or related field.",
     "experiences": "5+ years of product management experience.",
-    "contactInformation": {
-      "phone": "555-2345",
-      "email": "jobs@uber.com"
-    }
+    "phone": "555-2345",
+    "email": "jobs@uber.com"
   },
   {
     "id": 6,
@@ -102,9 +92,7 @@
     "jobResponsibility": "Responsibilities include analyzing large datasets, developing predictive models, and presenting findings to stakeholders.",
     "educationalRequirements": "Bachelor's or Master's degree in Data Science, Computer Science, or related field.",
     "experiences": "3+ years of experience in data science or related field.",
-    "contactInformation": {
-      "phone": "555-3456",
-      "email": "jobs@amazon.com"
-    }
+    "phone": "555-3456",
+    "email": "jobs@amazon.com"
   }
 ]
