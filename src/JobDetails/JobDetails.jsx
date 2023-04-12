@@ -11,11 +11,11 @@ import { addToDb } from '../Utilities/fakeDb';
 const JobDetails = () => {
     const [details, setDetails] = useState({});
     const { jobTitle, location, salary, jobDescription, jobResponsibility, educationalRequirements, experiences, phone, email } = details;
-    const { jobDetailsId } = useParams();
+    const { id } = useParams();
     const data = useLoaderData();
     useEffect(() => {
         if (data) {
-            const detailsData = data.find(dt => dt.id == jobDetailsId)
+            const detailsData = data.find(dt => dt.id == id)
             setDetails(detailsData);
         }
     }, []);
