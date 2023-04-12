@@ -4,6 +4,7 @@ import locationIcon from '../assets/location.png'
 
 const AppliedJob = ({ job }) => {
     const { companyLogo, jobTitle, companyName, remoteOrOnsite, fulltimeOrPartTime, location, salary } = job;
+
     return (
         <div>
             <div className='mb-4 border rounded-xl p-4 flex flex-col md:flex-row'>

@@ -1,8 +1,33 @@
 import { useLoaderData } from 'react-router-dom';
 import AppliedJob from '../AppliedJob/AppliedJob';
+import { useState } from 'react';
+import FilterJob from '../FilterJob/FilterJob';
 
 const AppliedJobs = () => {
     const cart = useLoaderData();
+
+    const [filterTextValue, setFilterTextValue] = useState('all');
+
+    const filteredJobList = cart.filter((filterJob) => {
+        if (filterTextValue === 'remote') {
+            return filterJob.remoteOrOnsite == 'Remote';
+        }
+        else if (filterTextValue === 'onsite') {
+            return filterJob.remoteOrOnsite == 'Onsite';
+        }
+        else if (filterTextValue === 'fullTime') {
+            return filterJob.fulltimeOrPartTime == 'Full Time';
+        }
+        else if (filterTextValue === 'partTime') {
+            return filterJob.fulltimeOrPartTime == 'Part Time';
+        }
+        else {
+            return filterJob;
+        }
+    })
+    const onFilterValueSelected = (filterValue) => {
+        setFilterTextValue(filterValue);
+    }
 
     return (
         <div>
@@ -10,18 +35,11 @@ const AppliedJobs = () => {
                 <h2 className='text-center text-5xl font-bold py-5'>Applied Jobs</h2>
             </div>
             <div className='flex justify-end px-2 lg:px-80 py-2 md:pt-16'>
-                <div className="dropdown dropdown-end">
-                    <label tabIndex={0} className="btn btn-info normal-case m-1" style={{ background: "linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%)" }}>Filter By</label>
-                    <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box border border-blue-400 w-52">
-                        <li className="hover-bordered"><a>Remote</a></li>
-                        <hr />
-                        <li className="hover-bordered"><a>Onsite</a></li>
-                    </ul>
-                </div>
+                <FilterJob filterValueSelected={onFilterValueSelected}></FilterJob>
             </div>
-            <div className='px-2 lg:px-80 py-2'>
+            <div className='px-2 lg:px-80 py-2 md:mb-16'>
                 {
-                    cart.map(job => <AppliedJob
+                    filteredJobList.map(job => <AppliedJob
                         key={job.id}
                         job={job}
 
