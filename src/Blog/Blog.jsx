@@ -30,7 +30,7 @@ const Blog = () => {
                 <div className="card w-96 bg-base-100 shadow-xl hover:bg-gray-100">
                     <div className="card-body">
                         <h2 className="text-lg font-semibold"><span className='text-blue-700'>Ques:</span> What is useMemo?</h2>
-                        <p><span className='text-blue-700 font-semibold'>Ans:</span> useMemo is a hook that is used in the functional component of React that returns a memoized value.</p>
+                        <p><span className='text-blue-700 font-semibold'>Ans:</span> useMemo is a hook that is used in the functional component of React that returns a memoized values.</p>
                     </div>
                 </div>
             </div>
